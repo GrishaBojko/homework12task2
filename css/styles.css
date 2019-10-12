@@ -285,10 +285,109 @@ input[type="checkbox"]{
     display: flex;
     flex-direction: column;
     background: rgb(145, 101, 204);
-    width: 60vw;
-    height: 80vw ;
+    width: 100%;
+    height: 100% ;
     justify-content: center;
+    align-items: center;
+  }
+  .username__input{
+    width: 40vw;
+    height: 3vw;
+    margin-left: 5vw;
+    background: none;
+    border: 0.13vw solid lightgray;
+    color: white;
+    font-size: 1.7vw;
+    margin-top: 1vw;
+    align-items: center;
+  
+  }
+  .password__input{
+    width: 40vw;
+    height: 3vw;
+    margin-left: 5vw;
+    background: none;
+    border: 0.13vw solid lightgray;
+    color: white;
+    font-size: 1.7vw;
+    margin-top: 1vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .form{
+
+    display: flex;
+    flex-direction: column;
+    background: rgb(145, 101, 204);
+    width: 30vw;
+    height: 30vw ;
+    justify-content: center;
+    align-items: center;
+  }
+  .username{
+    display: flex;
+    flex-direction: column;
+    animation-name: password;
+    position: relative;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    align-items: center;
+  }
+  .password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: password;
+    position: relative;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  .cart_form__heading{
+    background:rgb(145, 101, 204);
+    display: flex;
+    width: 30vw;
+    justify-content: center;
+    list-style: none;
+    height: 5vw;
+    align-items: center;
+   
   }
 
+  .heading{
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+    list-style: none;
+    height: 5vw;
+    align-items: center;
+   
+    animation-name: heading;
+    position: relative;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  .cart_form__footer{
+    width: 30vw;
+    height: 5vw;
+    background: rgb(145, 101, 204);
+   
+    
   
+  }
+  .footering{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+    height: 3vw;
+    align-items: center;
+    font-size: 1.2vw;
+  }
+  .footering a{
+    text-decoration: none;
+    color:lightgray;
+    border-bottom: 0.1vw solid lightgray;
+    
+  
+  }
    }
