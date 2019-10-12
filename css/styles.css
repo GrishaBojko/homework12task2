@@ -10,7 +10,7 @@
 
 main{
   background: rgb(229, 238, 238);
-  height: 46vw;
+  height: 60vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -280,3 +280,15 @@ input[type="checkbox"]{
   50%{top: -550px;}
   100%{top: 0;}
 }
+@media (max-width: 450px) { 
+  .cart_form{
+    display: flex;
+    flex-direction: column;
+    background: rgb(145, 101, 204);
+    width: 60vw;
+    height: 80vw ;
+    justify-content: center;
+  }
+
+  
+   }
