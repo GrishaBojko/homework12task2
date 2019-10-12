@@ -1,0 +1,237 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: none; 
+  
+  
+}
+
+
+
+main{
+  background: gray;
+  height: 46vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart_form{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  background-size: cover;
+  width: 30vw;
+  height: 40vw;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  border: 0.15vw solid rgb(34, 135, 197);
+  border-radius: 0.2vw ;
+  
+
+}
+
+.cart_form__heading{
+  background:rgb(145, 101, 204);
+  display: flex;
+  width: 30vw;
+  justify-content: flex-start;
+  list-style: none;
+  height: 5vw;
+  align-items: center;
+  
+}
+.heading{
+  display: flex;
+  width: 30vw;
+  justify-content: flex-start;
+  list-style: none;
+  height: 5vw;
+  align-items: center;
+  margin-left: 5vw;
+  animation-name: heading;
+  position: relative;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.heading li{
+  height: 100%;
+  
+  display: flex;
+  align-items: center;
+}
+.heading a{
+  text-decoration: none;
+  color: lightgray;
+  font-size: 1.5vw;
+  height: 3vw;
+  display: flex;
+  align-items: center;
+  
+  border-bottom: 0.2vw solid rgba(231, 7, 0, 0);
+  
+ 
+ 
+}
+
+.heading__item-2{
+  margin-left: 2vw;
+
+}
+
+.form{
+
+  display: flex;
+  flex-direction: column;
+  background: rgb(145, 101, 204);
+  width: 30vw;
+  height: 35vw ;
+  justify-content: center;
+
+}
+.username{
+  display: flex;
+  flex-direction: column;
+  animation-name: password;
+  position: relative;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
+}
+.password{
+  display: flex;
+  flex-direction: column;
+  animation-name: password;
+  position: relative;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+.password label{
+  margin-left: 5vw;
+  color: white;
+  font-size: 1.3vw;
+  margin-top: 1vw;
+}
+.username label{
+ 
+  margin-left: 5vw;
+  color: white;
+  font-size:  1.3vw;
+}
+
+
+
+
+
+.submit__input{
+  width: 20vw;
+  margin-left: 5vw;
+  border: none;
+  height: 3vw;
+  background: rgb(37, 174, 136);
+  margin-top: 1vw;
+  color: white;
+  font-size: 2vw;
+  cursor: pointer;
+  animation-name: submit;
+  position: relative;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
+}
+.error{
+  margin-left: 5vw;
+  opacity: 0;
+  font-size: 1vw;
+}
+
+
+
+.username__input{
+  width: 20vw;
+  height: 3vw;
+  margin-left: 5vw;
+  background: none;
+  border: 0.13vw solid lightgray;
+  color: white;
+  font-size: 1.7vw;
+  margin-top: 1vw;
+  
+
+}
+.password__input{
+  width: 20vw;
+  height: 3vw;
+  margin-left: 5vw;
+  background: none;
+  border: 0.13vw solid lightgray;
+  color: white;
+  font-size: 1.7vw;
+  margin-top: 1vw;
+ 
+  
+}
+
+.cart_form__footer{
+  width: 30vw;
+  height: 5vw;
+  background: rgb(145, 101, 204);
+  
+
+}
+
+
+.heading a:hover{
+  border-bottom: 0.2vw solid rgba(231, 7, 0, 1);
+}
+
+
+
+.password__input:hover{
+  border: rgb(37, 174, 136) 0.13vw solid;
+  transition: 0.4s;
+  transition-duration: 0.4s;
+  
+}
+.username__input:hover{
+  border: rgb(37, 174, 136) 0.13vw solid;
+  transition: 0.4s;
+  transition-duration: 0.4s;
+  
+}
+.username__input:invalid{
+  border: red 0.13vw solid;
+  transition: 0.7s;
+}
+.username__input:valid{
+  border: rgb(37, 174, 136) 0.13vw solid;
+}
+.password__input:invalid{
+  border: red 0.13vw solid;
+  transition: 0.7s;
+}
+.password__input:valid{
+  border: rgb(37, 174, 136) 0.13vw solid;
+}
+
+.password__input:invalid +.error , .username__input:invalid +.error{
+  color: red;
+  opacity: 1;
+  transition: 0.7s;
+}
+@keyframes  password{
+  0%{left: -1000px;}
+ 
+  100%{left: 0;}
+}
+@keyframes  submit{
+  0%{bottom: -1000px;}
+ 
+  100%{bottom: 0;}
+}
+@keyframes  heading{
+  0%{top: -500px;}
+  50%{top: -550px;}
+  100%{top: 0;}
+}
