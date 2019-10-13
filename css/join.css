@@ -1,7 +1,7 @@
 *{
   padding: 0;
   margin: 0;
-  outline: none; 
+  
   
   
 }
@@ -70,11 +70,12 @@ main{
   display: flex;
   align-items: center;
   
-  
-  
- 
- 
 }
+
+.first{
+  border-bottom: 0.2vw solid rgba(231, 7, 0, 0);
+}
+
 .second{
   border-bottom: 0.2vw solid rgba(231, 7, 0, 1);
 }
