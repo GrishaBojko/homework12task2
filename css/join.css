@@ -70,10 +70,13 @@ main{
   display: flex;
   align-items: center;
   
-  border-bottom: 0.2vw solid rgba(231, 7, 0, 0);
+  
   
  
  
+}
+.second{
+  border-bottom: 0.2vw solid rgba(231, 7, 0, 1);
 }
 
 .heading__item-2{
@@ -183,11 +186,11 @@ main{
 }
 
 
-.heading a:hover{
+
+
+.first:hover{
   border-bottom: 0.2vw solid rgba(231, 7, 0, 1);
 }
-
-
 
 .password__input:hover{
   border: rgb(37, 174, 136) 0.13vw solid;

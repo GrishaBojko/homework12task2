@@ -10,7 +10,7 @@
 
 main{
   background: rgb(229, 238, 238);
-  height: 60vw;
+  height: 46vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,11 +67,18 @@ main{
   height: 3vw;
   display: flex;
   align-items: center;
+  
+  
+  
+ 
+ 
+}
+.second{
   border-bottom: 0.2vw solid rgba(231, 7, 0, 0);
+}
+.first{
+  border-bottom: 0.2vw solid rgba(231, 7, 0, 1);
   
-  
- 
- 
 }
 
 .heading__item-2{ 
@@ -227,11 +234,11 @@ input[type="checkbox"]{
   
 
 }
-.heading a:hover{
+
+.second:hover{
   border-bottom: 0.2vw solid rgba(231, 7, 0, 1);
-
-
 }
+
 .password__input:hover{
   border: rgb(37, 174, 136) 0.13vw solid;
   transition: 0.4s;
