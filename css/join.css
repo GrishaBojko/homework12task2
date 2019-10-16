@@ -1,12 +1,8 @@
 *{
   padding: 0;
   margin: 0;
-  
-  
-  
+
 }
-
-
 
 main{
   background: rgb(229, 238, 238);
@@ -29,7 +25,6 @@ main{
   border-radius: 0.2vw ;
   box-shadow: 0 1vw 2vw rgba(0,0,0,0.25), 0 1vw 1vw rgba(0,0,0,0.22);
   
-
 }
 
 .cart_form__heading{
@@ -50,10 +45,7 @@ main{
   height: 5vw;
   align-items: center;
   margin-left: 5vw;
-  animation-name: heading;
-  position: relative;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
+ 
 }
 
 .heading li{
@@ -98,19 +90,10 @@ main{
 .username{
   display: flex;
   flex-direction: column;
-  animation-name: password;
-  position: relative;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-
 }
 .password{
   display: flex;
   flex-direction: column;
-  animation-name: password;
-  position: relative;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
 }
 .password label{
   margin-left: 5vw;
@@ -119,15 +102,10 @@ main{
   margin-top: 1vw;
 }
 .username label{
- 
   margin-left: 5vw;
   color: white;
   font-size:  1.3vw;
 }
-
-
-
-
 
 .submit__input{
   width: 20vw;
@@ -143,15 +121,12 @@ main{
   position: relative;
   animation-duration: 2s;
   animation-fill-mode: forwards;
-
 }
 .error{
   margin-left: 5vw;
   opacity: 0;
   font-size: 1vw;
 }
-
-
 
 .username__input{
   width: 20vw;
@@ -162,8 +137,6 @@ main{
   color: white;
   font-size: 1.7vw;
   margin-top: 1vw;
-  
-
 }
 .password__input{
   width: 20vw;
@@ -174,8 +147,6 @@ main{
   color: white;
   font-size: 1.7vw;
   margin-top: 1vw;
- 
-  
 }
 
 .cart_form__footer{
@@ -185,9 +156,6 @@ main{
   
 
 }
-
-
-
 
 .first:hover{
   border-bottom: 0.2vw solid rgba(231, 7, 0, 1);
@@ -224,19 +192,4 @@ main{
   color: red;
   opacity: 1;
   transition: 0.7s;
-}
-@keyframes  password{
-  0%{left: -1000px;}
- 
-  100%{left: 0;}
-}
-@keyframes  submit{
-  0%{bottom: -1000px;}
- 
-  100%{bottom: 0;}
-}
-@keyframes  heading{
-  0%{top: -500px;}
-  50%{top: -550px;}
-  100%{top: 0;}
 }

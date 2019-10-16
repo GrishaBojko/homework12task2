@@ -6,8 +6,6 @@
   
 }
 
-
-
 main{
   background: rgb(229, 238, 238);
   height: 46vw;
@@ -68,10 +66,6 @@ main{
   display: flex;
   align-items: center;
   
-  
-  
- 
- 
 }
 .second{
   border-bottom: 0.2vw solid rgba(231, 7, 0, 0);
@@ -129,9 +123,9 @@ main{
 .checkbox label {
   width: 17vw;
   font-size: 1.2vw;
+  color: white;
 }
 .checkbox {
-  margin-top: 2vw;
   display: flex;
   animation-name: password;
   position: relative;
@@ -140,6 +134,7 @@ main{
 
 }
 .checkbox label:before{
+  margin-right: 0.5vw;
   display:inline-flex;
   vertical-align: middle;
   margin-left: 5vw;
@@ -168,7 +163,7 @@ input[type="checkbox"]{
   width: 20vw;
   margin-left: 5vw;
   border: none;
-  height: 3vw;
+  height: 3.5vw;
   background: rgb(37, 174, 136);
   margin-top: 3vw;
   color: white;
